@@ -13,7 +13,7 @@ function preload()
 }
 
 function setup() {
-	createCanvas(1600, 700);
+	createCanvas(800, 700);
 
 
 	engine = Engine.create();
@@ -23,10 +23,10 @@ function setup() {
 
 
 	Engine.run(engine);
-  ground=new Ground(1600,20);
-  box1 = new Box(1400,660,200,20);
-  box2 =new Box(1290,620,20,100);
-  box3= new Box(1510,620,20,100);
+  ground=new Ground(800,20);
+  box1 = new Box(600,660,200,20);
+  box2 =new Box(490,620,20,100);
+  box3= new Box(710,620,20,100);
   ball=new Ball();
 }
 
@@ -41,7 +41,7 @@ function draw() {
   box2.display();
   box3.display();
   ball.display();
-keyPressed();
+
 }
 
 function keyPressed(){

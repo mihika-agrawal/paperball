@@ -48,7 +48,7 @@ function keyPressed(){
 
 	if(keyCode === UP_ARROW){
 
-		Matter.Body.applyForce(ball.body,ball.body.position,{x:60,y:-20});
+		Matter.Body.applyForce(ball.body,ball.body.position,{x:145,y:-110});
 	}
 }
 

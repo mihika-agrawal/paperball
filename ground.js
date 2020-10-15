@@ -4,7 +4,7 @@ constructor(w,h){
 var options={
   isStatic:true
 }
-  this.ground=Bodies.rectangle(800,680,w,h,options);
+  this.ground=Bodies.rectangle(400,680,w,h,options);
   World.add(world,this.ground);
   this.width=w;
   this.height=h;
